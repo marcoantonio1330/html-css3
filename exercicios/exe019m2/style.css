@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/*
+    em html é id = em css é # (so pode um elemento)
+    em html é cladd = em css é .(pode varios elementos ) 
+
+*/
+
+
+body{
+    background-color: rgb(145, 236, 142);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h1{
+    color:rgb(24, 110, 22);
+}
+
+h1#principal{
+    text-align: center;
+    background-color: rgb(102, 177, 102); /* seletor personalizado */
+    color: white;
+}
+
+h2{
+    color:rgb(59, 75, 59);
+}
+
+.basico{
+    color: #10c3e2;
+}
+
+.intermediario{
+    color: rgb(168, 168, 25);
+}
+
+.avancado{
+    color:rgb(231, 157, 169)
+}
+
+
+.destaque{
+    background-color: rgba(190, 190, 88, 0.507);
+}

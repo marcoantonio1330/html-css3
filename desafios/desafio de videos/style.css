@@ -1,0 +1,15 @@
+@charset "UTF-8";
+    h1{
+     text-align: center;
+     background-color: rgb(150, 47, 47);
+    }
+    
+    body{
+        text-align: center;
+        background-color: black;
+        color: white;
+    }
+
+    a{
+        color: rgb(61, 191, 214);
+    }
