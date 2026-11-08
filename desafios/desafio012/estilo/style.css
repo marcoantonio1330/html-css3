@@ -1,42 +1,42 @@
 @charset "UTF-8";
 
-*{
+*{      /*configuraçoes gerais  reseta todos os elementos*/
     margin: 0px;
     padding:0px;
 }
 
-html, body{
+html, body{ /*configuraçoes do html e do corpo do doc*/
     min-height: 100vh;
     background-color: darkgrey;
 }
 
-header{
+header{ /*cabeçalho*/
     background-color: black;
     color: white;
     text-align: center;
 }
 
-header > h1 {
+header > h1 { /*mexe na area em volta da frase do cabeçalho ou nas letras da frase*/
     padding-top: 50px;
     font-variant: small-caps;
 }
 
-header > p {
+header > p {/*onde esta o nome do autor */
     padding-bottom: 50px;
 }
 
-header a, footer a  {
+header a, footer a  {/*confiraçoes pro link do header e do rodape*/
     color:white;
     text-decoration: none;
     font-weight: bolder;
 }
 
 
- header a:hover, footer a:hover {
+ header a:hover, footer a:hover { /*efeito para os links */
     text-decoration: underline;
 }
 
-section{
+section{ /*configuraçoes que seram aplicadas em todas as sections todas as sessoes*/
     padding-top: 10vh;
     padding-bottom:10vh;
     line-height: 2em;
@@ -44,23 +44,23 @@ section{
 
 }
 
-section.normal{
+section.normal{/*classe sem imagens */
     background-color: white;
     color: black;
 }
 
-section.imagem{
+section.imagem{/*classe que tera imagens */
     background-color: rgb(84, 190, 194);
     color: white;
 }
 
-section.imagem > p {
+section.imagem > p {/*para todo paragrafo que estiver dento da section*/
     width:400px;
     background-color: rgba(0, 0, 0, 0.253);
 
 }
 
-footer{
+footer{/*configuraçoes para o rodape*/
     background-color: black;
     color:white;
     text-align: center;
