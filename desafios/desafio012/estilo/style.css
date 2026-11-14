@@ -1,13 +1,26 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fredericka+the+Great&family=Google+Sans+Flex&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Passion+One:wght@400;700;900&family=Sriracha&family=Story+Script&family=Work+Sans:ital@0;1&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fredericka+the+Great&family=Google+Sans+Flex&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Passion+One:wght@400;700;900&family=Sriracha&family=Story+Script&family=Work+Sans:ital@0;1&display=swap');
+
+
+:root{
+ --fonte1:Verdana, Geneva, Tahoma, sans-serif;
+ --fonte2:'Passion One', sans-serif;
+ --fonte3:'Story Script', sans-serif;
+}
+
 *{      /*configuraçoes gerais  reseta todos os elementos*/
     margin: 0px;
     padding:0px;
+    
 }
 
 html, body{ /*configuraçoes do html e do corpo do doc*/
     min-height: 100vh;
     background-color: darkgrey;
+    font-family:var(--fonte1);
 }
 
 header{ /*cabeçalho*/
@@ -19,6 +32,8 @@ header{ /*cabeçalho*/
 header > h1 { /*mexe na area em volta da frase do cabeçalho ou nas letras da frase*/
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--fonte2);
+    font-size: 10vw;
 }
 
 header > p {/*onde esta o nome do autor */
@@ -41,6 +56,8 @@ section{ /*configuraçoes que seram aplicadas em todas as sections todas as sess
     padding-bottom:10vh;
     line-height: 2em;
     padding-left: 30px;
+    font-family: var(--fonte3);
+    font-size: 3.5vw;
 
 }
 
@@ -55,7 +72,8 @@ section.imagem{/*classe que tera imagens */
 }
 
 section.imagem > p {/*para todo paragrafo que estiver dento da section*/
-    width:400px;
+    display: inline-block;
+    padding: 5px;
     background-color: rgba(0, 0, 0, 0.253);
 
 }
