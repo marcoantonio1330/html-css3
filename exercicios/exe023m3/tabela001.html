@@ -12,39 +12,23 @@
 
         table{
             width: 400px;
+            height: 400px;
             border-collapse: collapse; 
             
-        }
-        tr.linha{
-            background-color: gray;
+        
         }
 
         td{
               border: 1px solid black;
               padding: 8px;
+              text-align:center;
+              /*aliamento horizontal */
+              vertical-align:middle;
+              /*aliamento na vertical propriedades bottom (baixo), middle (meio) e top(cima)*/
         }
 
-        td.dado{
-            background-color: rgb(58, 197, 240);
-            border: 1px solid rgb(51, 216, 238);
-            
-        }
-
-        td.dado2{
-            background-color:yellow;
-            border: 1px solid rgb(255, 255, 0);
-        }
-
-        td.dado3{
-            background-color: pink;
-            border: 1px solid pink;
-        }
-        
-        p{
-            color: red;
-            border: 3px solid yellow;
-            background-color: yellow;
-
+        .numero{
+            text-align: center;
         }
     </style>
 </head>
@@ -59,36 +43,26 @@
     <h1>minha primeira tabela</h1>
     <table>
         <tr><!--primeira linha -->
-            <td>A1</td>
-            <td>B1</td>
-            <td>C1</td>
+            <td>ale</td>
+            <td>dany</td>
+            <td>pau</td>
         </tr>
-        <tr class="linha"><!-- segunda linha -->
+        <tr><!-- segunda linha -->
             <td>A2</td>
             <td>B2</td>
             <td>C2</td>
         </tr>
         <tr><!--- terceira linha-->
-            <td >A3</td>
-            <td class="dado3">patrona</td>
-            <td >C3</td>
+            <td>A3</td>
+            <td>B3</td>
+            <td>C3</td>
         </tr>
         <tr><!--quarta linha -->
             <td>A4</td>
-            <td class="dado2">Dany</td>
+            <td>B4</td>
             <td>C4</td>
         </tr>
-        <tr>
-            <td>A5</td>
-            <td class="dado">Ale</td>
-            <td>C5</td>
-        </tr>
-        <tr>
-            <td>A6</td>
-            <td>B6</td>
-            <td>C6</td>
-        </tr>
     </table>
-    <p>Obs:para colovar os dado em forma horizontal devemos colocar eles na mesma linnha, para colocar os dados na vertical tem que colocar em linhas diferentes </p>
+    
 </body>
 </html>
